@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  // outline: 2px solid coral;
+
+  @media screen and (max-width: 479px) {
+    width: 00px;
+  }
+  @media screen and (min-width: 480px) {
+    width: 00px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 0px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 00px;
+  }
+}
